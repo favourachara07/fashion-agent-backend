@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables (contains secrets)
+.env
+
+# Database
+*.db
+*.sqlite3
+
+# ChromaDB
+chroma_data/
+
+# IDE
+.vscode/
+.idea/
+
+# Uploaded files (can be regenerated)
+uploaded_wardrobe/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated outputs
+*.png
+!garment*.jpg
+!black_trousers.jpg
+!favour-2026.jpg
+output/
+new_clothes/
+test_images/
